@@ -7,7 +7,7 @@ import { HomeIcon, MyAccountsIcon, SendMoneyIcon, PayBillsIcon, MyInvestIcon, Re
 class SideMenu extends React.Component {
     render() {
         return (
-                <MainMenu>
+                <MainMenu className="main-menu">
                     <Menu.Item className="menu-item home-main" key="1">
                         <span className="icon">
                             <HomeIcon />

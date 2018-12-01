@@ -4,9 +4,9 @@ body {
 }
 
 .app-wrapper {
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .side-menu-wrapper {

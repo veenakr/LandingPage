@@ -4,6 +4,7 @@ import 'antd/lib/menu/style/css';
 
 export const MainMenu = styled(Menu)`
     height: 100vh;
+    width: 100%;
     border: none;
     box-shadow: 0 20px 45px 0 rgba(220, 228, 235, 0.8) !important;
     background-color: #ffffff;
