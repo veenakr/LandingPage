@@ -5,17 +5,17 @@ export const MainCard = styled(Card)`
     margin: 0px !important;
     padding: 0px !important;
     border: 0px !important;
-    width: 34.2%;
-    height: 21.3%;
     border-radius: 6px;
     box-shadow: 0 20px 45px 0 rgba(220, 228, 235, 0.6);
     border: 1px solid black;
     background-color: #ffffff;
     padding-left: 30px !important;
-    /* border: 1px solid black !important; */
 `
 
 export const QuickPayBillsStyles = styled.div`
+    width: 50%;
+    max-width: 492px;
+    margin-right: 24px;
     .Quick-Links, .Quick-Pay-Bills, .Your-Saved-Billers,
     .User-Name, .Cust-No, .Pay-Bill, {
         font-family: CircularStd;
@@ -88,6 +88,15 @@ export const QuickPayBillsStyles = styled.div`
         font-size: 15px;
     }
 
+    .oval:hover, .three-dots:hover {
+        background-color: #0072ce;
+        color: #ffffff;
+        > .dot {
+            background-color: #ffffff;
+        }
+    }
+    
+
     .dot {
         display: inline-block;
         width: 3px;
@@ -112,7 +121,8 @@ export const QuickPayBillsStyles = styled.div`
         display:flex;
         align-items: center;
         justify-content: space-between;
-        margin: 26px 0 30px;
+        margin: 26px 0 0;
+        padding-bottom: 30px;
     }
     .User-Name {
         margin: 0;

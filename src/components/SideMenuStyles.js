@@ -3,6 +3,7 @@ import { Menu } from 'antd';
 import 'antd/lib/menu/style/css';
 
 export const MainMenu = styled(Menu)`
+    overflow: hidden;
     height: 100vh;
     width: 100%;
     border: none;
